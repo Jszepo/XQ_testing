@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <!-- Prod -->
-    <script type="module"
+    <!-- <script type="module"
         src="https://secureform.xqmsg.com/xq.js"
         data-xq-forms="inclusive"
         data-xq-enc="html"
@@ -14,9 +14,20 @@
         document.addEventListener("xq_success", function () {
         window.location.href="";
         });
+    </script> -->
+
+     <!-- Prod - JSON test -->
+    <script type="module" src="https://secureform.xqmsg.com/xq.js" data-xq-forms="inclusive" data-xq-enc="json"
+        data-xq-format="raw" data-xq-api="943f71a4-68eb-4ee5-bd19-1fa44cc01de9-c696c2fe-01f3-40ea-841a-cc122fbf510a">
+    </script>
+    <script type="application/javascript">
+        document.addEventListener("xq_success", function () {
+            window.location.href = "xqmsg.co";
+        });
     </script>
 
     <script
+
     defer="defer"
     id="xq-widget-embed"
     data-xq-subscription-key="ec29dfc2-676b-4d0a-8ba1-ea4b314dfe82-61ed7bf5-9f75-4bd9-b076-cb173a9604cd"
@@ -44,10 +55,10 @@
 
 <head>
 <body>
-    <div>XQ Embedded Chat & Form</div>
+    <div>Embedded Chat Test</div>
 
 
-    <h2>Form</h2>
+    <h2>Forms Example</h2>
 
     <form action="">
     <label for="fname">First name:</label><br>
